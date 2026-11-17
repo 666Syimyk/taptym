@@ -1,0 +1,14 @@
+**/node_modules
+**/dist
+**/.env
+**/.env.*
+backend/data
+backend/storage
+backend/storage-test
+backend/models
+backend/coverage
+mobile
+taptym
+*.zip
+*.txt
+.git

@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+# build
+dist/
+build/
+.dart_tool/
+.flutter-plugins*
+*.iml
+# env & secrets
+.env
+.env.*
+!.env.example
+# local data
+backend/data/
+backend/storage/
+backend/models/
+backend/coverage/
+backend/storage-test/
+mobile/android/local.properties
+mobile/android/key.properties
+*.jks
+*.keystore
+.run/
+# os
+.DS_Store
+Thumbs.db
+# not part of the project
+.claude/
+taptym/
+taptym-hosting.zip
+*.txt

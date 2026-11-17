@@ -1,0 +1,4 @@
+storePassword=replace-me
+keyPassword=replace-me
+keyAlias=tabyldy
+storeFile=C:/private/tabyldy-upload.jks

@@ -1,0 +1,9 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "..",
+  "testEnvironment": "node",
+  "testRegex": "test/.*\\.e2e-spec\\.ts$",
+  "transform": { "^.+\\.ts$": ["ts-jest", { "tsconfig": { "module": "commonjs", "moduleResolution": "node10", "isolatedModules": true } }] },
+  "testTimeout": 60000,
+  "setupFiles": ["<rootDir>/test/setup-env.ts"]
+}

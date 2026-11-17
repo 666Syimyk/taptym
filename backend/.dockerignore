@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+.env.*
+data
+storage
+storage-test
+models
+coverage

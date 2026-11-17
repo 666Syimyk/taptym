@@ -1,0 +1,561 @@
+{
+  "@@locale": "ru",
+  "appName": "Табылды",
+  "tagline": "Нашёл — опубликовал. Потерял — нашёл.",
+  "onboarding1Title": "Потерянное может найтись",
+  "onboarding1Body": "Единое место, где встречаются те, кто потерял, и те, кто нашёл.",
+  "onboarding2Title": "Нашли вещь? Помогите вернуть",
+  "onboarding2Body": "Сфотографируйте находку — объявление будет готово за минуту.",
+  "onboarding3Title": "Общайтесь безопасно",
+  "onboarding3Body": "Защищённый чат и проверка владельца оберегают от мошенников.",
+  "continueLabel": "Продолжить",
+  "skip": "Пропустить",
+  "chooseLanguage": "Выбрать язык",
+  "languageSheetTitle": "Язык приложения",
+  "russian": "Русский",
+  "kyrgyz": "Кыргызча",
+  "getStarted": "Начать",
+  "navHome": "Главная",
+  "navLost": "Потеряно",
+  "navCamera": "Я нашёл",
+  "navFound": "Найдено",
+  "navProfile": "Профиль",
+  "homeGreeting": "Здравствуйте!",
+  "homeGreetingName": "Здравствуйте, {name}!",
+  "@homeGreetingName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingGuest": "Добро пожаловать",
+  "homeSubtitle": "Поможем вернуть потерянное",
+  "searchHint": "Что ищете? Например, кошелёк",
+  "iLost": "Я потерял",
+  "iFound": "Я нашёл",
+  "homeHeroLostBody": "Опишите — найдём похожие",
+  "homeHeroFoundBody": "Снимите — AI заполнит сам",
+  "recentItems": "Недавно опубликовано",
+  "nearby": "Новые находки рядом",
+  "nearbyIn": "Находки: {city}",
+  "@nearbyIn": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "chooseCity": "Выберите город",
+  "allCities": "Весь Кыргызстан",
+  "nothingNearby": "В этом городе пока нет новых находок",
+  "categories": "Категории",
+  "messages": "Сообщения",
+  "safetyTipsTitle": "Безопасный возврат",
+  "safetyTip1": "Не переводите деньги заранее.",
+  "safetyTip2": "Не сообщайте коды подтверждения.",
+  "safetyTip3": "Встречайтесь в людных общественных местах.",
+  "seeAll": "Все",
+  "lostCatalogTitle": "Потерянные вещи",
+  "foundCatalogTitle": "Найденные вещи",
+  "filters": "Фильтры",
+  "sortLabel": "Сортировка",
+  "sortNewest": "Сначала новые",
+  "sortRelevance": "По релевантности",
+  "apply": "Применить",
+  "reset": "Сбросить",
+  "category": "Категория",
+  "allCategories": "Все категории",
+  "color": "Цвет",
+  "district": "Район",
+  "city": "Город",
+  "anyOption": "Любой",
+  "withReward": "С вознаграждением",
+  "details": "Подробнее",
+  "maybeIFoundIt": "Возможно, я нашёл это",
+  "thisIsMine": "Это моя вещь",
+  "emptySearch": "По вашему запросу пока ничего не найдено",
+  "changeFilters": "Изменить фильтры",
+  "createListing": "Создать объявление",
+  "recentSearches": "Недавние запросы",
+  "clearRecent": "Очистить",
+  "suggestions": "Подсказки",
+  "resultsCount": "{n} объявлений",
+  "@resultsCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "endOfList": "Это все объявления",
+  "retry": "Повторить",
+  "errorGeneric": "Что-то пошло не так",
+  "offlineBanner": "Нет подключения. Показаны сохранённые данные.",
+  "loading": "Загрузка…",
+  "contentRemoved": "Объявление удалено модерацией",
+  "itemUnavailable": "Объявление недоступно",
+  "accessDenied": "Нет доступа",
+  "statusPublished": "Опубликовано",
+  "statusPendingReview": "На проверке",
+  "statusResolved": "Возвращено",
+  "statusClosed": "Закрыто",
+  "statusRemoved": "Удалено",
+  "statusDraft": "Черновик",
+  "statusHintPending": "Объявление проверяет модератор. Пока его видите только вы.",
+  "lostLabel": "Потеряно",
+  "foundLabel": "Найдено",
+  "reward": "Вознаграждение",
+  "rewardAmount": "{amount} сом",
+  "@rewardAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "description": "Описание",
+  "visibleFeatures": "Видимые характеристики",
+  "brand": "Бренд",
+  "size": "Размер",
+  "date": "Дата",
+  "approximateArea": "Примерный район",
+  "postedBy": "Разместил",
+  "contactHidden": "Контакты скрыты. Общение откроется после подтверждения заявки.",
+  "trustGuest": "Гость",
+  "trustContactVerified": "Контакт подтверждён",
+  "trustEstablished": "Надёжный участник",
+  "report": "Пожаловаться",
+  "share": "Поделиться",
+  "linkCopied": "Ссылка скопирована",
+  "edit": "Редактировать",
+  "moreActions": "Ещё",
+  "ownerPanelTitle": "Управление объявлением",
+  "viewMatches": "Совпадения",
+  "viewClaims": "Заявки",
+  "pendingClaimsCount": "{n} новых",
+  "@pendingClaimsCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "markResolved": "Вещь возвращена",
+  "closeListing": "Закрыть объявление",
+  "matchesTitle": "Возможно, мы нашли похожие вещи",
+  "matchesEmpty": "Пока совпадений нет. Мы сообщим, когда появятся.",
+  "matchWhy": "Почему мы это предлагаем",
+  "matchDisclaimer": "Совпадение не доказывает принадлежность. Проверьте скрытые признаки через заявку.",
+  "check": "Проверить",
+  "dismiss": "Скрыть",
+  "noPhotoRestricted": "Фото для этой категории не публикуется ради безопасности.",
+  "foundFlowTitle": "Новая находка",
+  "lostFlowTitle": "Что вы потеряли?",
+  "stepOf": "Шаг {n} из {total}",
+  "@stepOf": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "back": "Назад",
+  "next": "Далее",
+  "stepPhoto": "Фото",
+  "stepDetails": "Описание",
+  "stepPlace": "Где и когда",
+  "stepHidden": "Скрытые признаки",
+  "stepReview": "Проверка",
+  "photoStepTitle": "Сфотографируйте находку",
+  "photoStepBody": "Снимите вещь целиком на нейтральном фоне. Документы, карты и ключи крупным планом не публикуются.",
+  "takePhoto": "Сделать фото",
+  "pickFromGallery": "Выбрать из галереи",
+  "retakePhoto": "Переснять",
+  "removePhoto": "Удалить фото",
+  "photoTaken": "Фото добавлено",
+  "noPhotoHint": "Фото необязательно",
+  "cameraPermissionTitle": "Нужен доступ к камере",
+  "cameraPermissionBody": "Камера нужна только чтобы сфотографировать найденную вещь. Можно выбрать фото из галереи.",
+  "continueWithoutPhoto": "Продолжить без фото",
+  "photoProcessing": "Обрабатываем фото…",
+  "photoBlocked": "На фото обнаружены конфиденциальные данные. Такое изображение нельзя публиковать.",
+  "photoUnchecked": "Фото проверит модератор, после этого объявление появится в ленте — обычно в течение нескольких часов.",
+  "aiSuggestionsTitle": "AI-подсказки",
+  "aiSuggestionsOff": "Подсказки отключены",
+  "aiSuggestionsApplied": "Подсказки применены — проверьте и исправьте при необходимости",
+  "aiNotSure": "Категория, цвет и название — по фото",
+  "useSuggestion": "Применить",
+  "detailsStepTitle": "Опишите вещь",
+  "whereWhenTitle": "Где и когда",
+  "lostAttributesTitle": "Как она выглядит",
+  "hiddenStepTitle": "Скрытые признаки",
+  "reviewStepTitle": "Проверьте объявление",
+  "titleField": "Название",
+  "titleHintFound": "Например, Найден чёрный кошелёк",
+  "titleHintLost": "Например, Потерял синий рюкзак",
+  "titleRequired": "Введите название не короче 3 символов",
+  "categoryRequired": "Выберите категорию",
+  "descriptionField": "Описание (только видимые детали)",
+  "colorField": "Цвет",
+  "brandField": "Бренд (если известен)",
+  "sizeField": "Размер (если применимо)",
+  "areaField": "Примерный район",
+  "chooseArea": "Выберите район",
+  "dateField": "Когда",
+  "dateRangeApprox": "Дата может быть приблизительной",
+  "today": "Сегодня",
+  "yesterday": "Вчера",
+  "hiddenFeaturesTitle": "Скрытые признаки",
+  "hiddenFeaturesHelp": "Детали, которые знает только владелец: гравировка, содержимое, царапина. Они не показываются в объявлении и нужны для проверки заявок.",
+  "hiddenFeatureHint": "Например, царапина на замке",
+  "addFeature": "Добавить признак",
+  "rewardField": "Вознаграждение (необязательно)",
+  "rewardNote": "Комментарий к вознаграждению",
+  "rewardDisclaimer": "Платформа не хранит и не переводит деньги.",
+  "notifyMatches": "Сообщать о похожих находках",
+  "acceptRules": "Я принимаю правила публикации и не размещаю чужие личные данные",
+  "preview": "Так объявление увидят другие",
+  "publish": "Опубликовать",
+  "publishing": "Публикуем…",
+  "successFoundTitle": "Спасибо! Вы помогаете вернуть потерянную вещь",
+  "successLostTitle": "Объявление опубликовано",
+  "successPendingReview": "Объявление отправлено на проверку. Обычно это занимает до нескольких часов.",
+  "viewListing": "Посмотреть объявление",
+  "toHome": "На главную",
+  "draftSaved": "Черновик сохранён",
+  "draftRestore": "Продолжить черновик?",
+  "draftRestoreBody": "У вас есть незавершённое объявление. Основные поля сохранены.",
+  "continueDraft": "Продолжить",
+  "startOver": "Начать заново",
+  "matchesFoundCount": "{count} похожих находок",
+  "@matchesFoundCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sensitiveCategoryTitle": "Особая категория",
+  "sensitiveDocuments": "Документы: не публикуйте номера и фото. Опишите тип документа, имя на нём не указывайте — владелец подтвердит его сам.",
+  "sensitiveBankCards": "Банковские карты: не фотографируйте и не указывайте номер. Рекомендуем передать карту в банк.",
+  "sensitiveKeys": "Ключи: не публикуйте фото профиля ключа и не указывайте адрес.",
+  "sensitivePhones": "Телефоны: не публикуйте IMEI и не пытайтесь разблокировать устройство.",
+  "authTitle": "Войти или создать аккаунт",
+  "authBody": "Это необязательно. Подтвердите телефон или email, чтобы сохранить свои объявления и переписку и открывать их с любого устройства.",
+  "phone": "Телефон",
+  "email": "Email",
+  "phoneHint": "+996 700 000 000",
+  "emailHint": "name@example.com",
+  "sendCode": "Получить код",
+  "codeSentTo": "Код отправлен. Введите 6 цифр.",
+  "codeField": "Код",
+  "verify": "Подтвердить",
+  "resendCode": "Отправить ещё раз",
+  "devCodeHint": "Код для разработки: {code}",
+  "@devCodeHint": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "claimTitle": "Проверка владельца",
+  "claimIntro": "Чтобы защитить вещь от мошенников, нам нужно убедиться, что она действительно ваша.",
+  "claimFoundReportIntro": "Расскажите, что вы нашли и где. Владелец сравнит это со своими скрытыми признаками.",
+  "claimMessage": "Сообщение (без личных данных)",
+  "evidenceType": "Тип подтверждения",
+  "evidenceUniqueFeature": "Уникальный признак",
+  "evidenceContents": "Содержимое",
+  "evidencePurchase": "Подтверждение покупки",
+  "evidenceOldPhoto": "Старое фото",
+  "evidenceOther": "Другое",
+  "evidenceText": "Описание",
+  "addEvidence": "Добавить подтверждение",
+  "evidenceHint": "Опишите то, чего не видно на фото",
+  "submitClaim": "Отправить заявку",
+  "claimSubmitted": "Заявка отправлена. Мы сообщим о решении.",
+  "myClaims": "Мои заявки",
+  "incomingClaims": "Заявки на мои вещи",
+  "claimsEmptyMine": "Вы ещё не подавали заявок",
+  "claimsEmptyIncoming": "Заявок на ваши вещи пока нет",
+  "claimStatusLabel": "Статус заявки",
+  "claimStatusSubmitted": "Отправлена",
+  "claimStatusScreening": "Проверяется",
+  "claimStatusNeedsInfo": "Нужны уточнения",
+  "claimStatusUnderReview": "На рассмотрении модератора",
+  "claimStatusPlausible": "Подтверждена, можно общаться",
+  "claimStatusRejected": "Отклонена",
+  "claimStatusWithdrawn": "Отозвана",
+  "claimStatusApprovedHandoff": "Готова к передаче",
+  "claimStatusCompleted": "Возврат завершён",
+  "decisionTitle": "Ваше решение",
+  "decisionPlausible": "Похоже на правду",
+  "decisionNeedsInfo": "Запросить уточнения",
+  "decisionReject": "Отклонить",
+  "decisionNote": "Комментарий (необязательно)",
+  "withdrawClaim": "Отозвать заявку",
+  "openChat": "Открыть чат",
+  "yourHiddenFeatures": "Ваши скрытые признаки для сравнения",
+  "evidenceFromClaimant": "Подтверждения от заявителя",
+  "dispute": "Оспорить",
+  "claimantLabel": "Заявитель",
+  "chatsTitle": "Сообщения",
+  "chatsEmpty": "Пока нет диалогов. Чат открывается после подтверждения заявки.",
+  "messageHint": "Сообщение…",
+  "send": "Отправить",
+  "attachPhoto": "Прикрепить фото",
+  "systemMessage": "Система",
+  "connectionLive": "онлайн",
+  "connectionReconnecting": "переподключение…",
+  "chatClosedBanner": "Диалог завершён",
+  "warningAdvancePayment": "Собеседник упоминает предоплату. Не переводите деньги до получения вещи.",
+  "warningOtp": "Никому не сообщайте коды подтверждения.",
+  "warningLink": "Будьте осторожны с внешними ссылками.",
+  "blockUser": "Заблокировать",
+  "closeChat": "Завершить диалог",
+  "handoffActions": "Возврат",
+  "handoffTitle": "Передача вещи",
+  "handoffPropose": "Договориться о передаче",
+  "handoffMethodMeeting": "Личная встреча",
+  "handoffMethodOther": "Другой способ",
+  "handoffPlaceHint": "Где встретимся? Выберите людное место",
+  "handoffCreate": "Предложить",
+  "handoffStep1": "Предложение",
+  "handoffStep2": "Ваше подтверждение",
+  "handoffStep3": "Подтверждение второй стороны",
+  "handoffStep4": "Завершено",
+  "handoffCodeTitle": "Код подтверждения",
+  "handoffCodeHolder": "Назовите этот код получателю при передаче. Он действует 72 часа.",
+  "handoffCodeReceiver": "Введите код, который назовёт вам нашедший",
+  "handoffCodeExpires": "Действует до {time}",
+  "@handoffCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "handoffConfirm": "Подтвердить передачу",
+  "handoffWaiting": "Ждём подтверждения второй стороны",
+  "handoffCompleted": "Возврат подтверждён обеими сторонами. Спасибо!",
+  "handoffDisclaimer": "Код подтверждает действие в приложении, но сам по себе не доказывает право собственности или физическую передачу.",
+  "profileTitle": "Профиль",
+  "guestProfileBody": "Регистрация не нужна: находки можно сразу фотографировать и публиковать. Войдите, когда захотите сохранить объявления и переписку на других устройствах.",
+  "sectionMine": "Моё",
+  "sectionSettings": "Настройки",
+  "sectionSafety": "Безопасность и помощь",
+  "myListings": "Мои объявления",
+  "myMessages": "Мои сообщения",
+  "returnsHistory": "История возвратов",
+  "returnsEmpty": "Завершённых возвратов пока нет",
+  "activeListings": "{n} активных объявлений",
+  "@activeListings": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "notifications": "Уведомления",
+  "language": "Язык",
+  "appearance": "Внешний вид",
+  "themeSystem": "Как в системе",
+  "themeLight": "Светлая",
+  "themeDark": "Тёмная",
+  "privacy": "Конфиденциальность",
+  "security": "Безопасность",
+  "sessions": "Активные сессии",
+  "revokeAll": "Выйти на всех устройствах",
+  "help": "Помощь",
+  "helpQ1": "Как подтвердить, что вещь моя?",
+  "helpA1": "Подайте заявку и опишите то, чего не видно на фото: гравировку, содержимое, дефект. Нашедший сравнит это со скрытыми признаками.",
+  "helpQ2": "Почему чат не открывается сразу?",
+  "helpA2": "Чат появляется только после того, как автор объявления признает заявку правдоподобной. Это защищает от мошенников.",
+  "helpQ3": "Берёт ли платформа деньги за возврат?",
+  "helpA3": "Нет. Вознаграждение — личная договорённость сторон. Приложение не хранит и не переводит деньги.",
+  "helpQ4": "Что делать с найденными документами или картами?",
+  "helpA4": "Не публикуйте фото и номера. Опишите тип документа и передайте его в банк или официальную организацию.",
+  "aboutApp": "О приложении",
+  "versionLabel": "Версия {v}",
+  "@versionLabel": {
+    "placeholders": {
+      "v": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteAccount": "Удалить аккаунт",
+  "deleteAccountConfirm": "Аккаунт будет обезличен, контакты и сессии удалены, объявления закрыты. Это действие необратимо.",
+  "logout": "Выйти",
+  "publicName": "Имя в приложении",
+  "save": "Сохранить",
+  "cancel": "Отмена",
+  "delete": "Удалить",
+  "close": "Закрыть",
+  "done": "Готово",
+  "optional": "необязательно",
+  "notifMatches": "Похожие находки",
+  "notifMessages": "Сообщения",
+  "privacyBody": "Мы показываем только примерный район, удаляем метаданные фото, скрываем контакты и храним скрытые признаки отдельно. Чат защищён на сервере; сквозного шифрования нет.",
+  "notificationsEmpty": "Уведомлений пока нет",
+  "markAllRead": "Прочитать все",
+  "reportTitle": "Жалоба",
+  "reportReasonFraud": "Мошенничество",
+  "reportReasonSpam": "Спам",
+  "reportReasonInappropriate": "Неприемлемый контент",
+  "reportReasonPersonalData": "Личные данные",
+  "reportReasonWrongCategory": "Неверная категория",
+  "reportReasonHarassment": "Преследование",
+  "reportReasonOther": "Другое",
+  "reportDetails": "Подробности (необязательно)",
+  "reportSent": "Жалоба отправлена. Спасибо!",
+  "colorBlack": "Чёрный",
+  "colorWhite": "Белый",
+  "colorGray": "Серый",
+  "colorRed": "Красный",
+  "colorOrange": "Оранжевый",
+  "colorYellow": "Жёлтый",
+  "colorGreen": "Зелёный",
+  "colorBlue": "Синий",
+  "colorPurple": "Фиолетовый",
+  "colorPink": "Розовый",
+  "colorBrown": "Коричневый",
+  "colorBeige": "Бежевый",
+  "colorGold": "Золотой",
+  "colorSilver": "Серебряный",
+  "colorMulticolor": "Разноцветный",
+  "justNow": "только что",
+  "minutesAgo": "{n} мин назад",
+  "@minutesAgo": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursAgo": "{n} ч назад",
+  "@hoursAgo": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "daysAgo": "{n} дн назад",
+  "@daysAgo": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "aiAnalyzing": "Распознаём вещь на фото…",
+  "aiAnalyzingBody": "AI определит категорию, цвет, бренд и модель и заполнит описание",
+  "aiFilled": "AI заполнил: {fields}. Проверьте и при необходимости исправьте",
+  "aiTitle": "название",
+  "aiPhotoHint": "Фото размытое или тёмное — переснимите при хорошем свете, чтобы AI заполнил больше полей",
+  "@aiFilled": {
+    "placeholders": {
+      "fields": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneForListing": "Ваш телефон",
+  "phoneListingNote": "В объявлении номер скрыт. Его увидит только человек, чью заявку на вещь вы одобрите.",
+  "phoneRequired": "Укажите номер телефона",
+  "locationRequired": "Выберите район, где вещь была найдена или потеряна",
+  "editDetails": "Изменить описание",
+  "aiRecognized": "AI распознал: {item}",
+  "@aiRecognized": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "contactPhoneTitle": "Телефон для связи",
+  "copyPhone": "Скопировать номер",
+  "phoneCopied": "Номер скопирован",
+  "aiResultTitle": "AI распознал",
+  "aiResultHint": "Нажмите на поле, чтобы исправить",
+  "aiResultUnsure": "Не удалось уверенно определить вещь — выберите категорию на следующем шаге",
+  "aiMaybe": "Возможно: {category}",
+  "@aiMaybe": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "aiFromText": "Подобрано по описанию",
+  "chooseCategory": "Выберите категорию",
+  "chooseColor": "Выберите цвет",
+  "notSet": "не указано",
+  "publishConsent": "Нажимая «Опубликовать», вы принимаете правила публикации и подтверждаете, что не размещаете чужие личные данные.",
+  "homeEmptyRecent": "Пока здесь пусто — опубликуйте первую находку",
+  "locateButton": "Определить по местоположению",
+  "locateDone": "Район определён: {area}. Можно поменять ниже.",
+  "@locateDone": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    }
+  },
+  "locateDenied": "Нет доступа к местоположению — выберите район вручную.",
+  "locateNotFound": "Рядом нет известных районов — выберите вручную.",
+  "locateFailed": "Не удалось определить местоположение — выберите район вручную.",
+  "scamTitle": "Как обманывают и как защититься",
+  "scam1t": "«Я нашёл вашу вещь, переведите за доставку»",
+  "scam1d": "Настоящий нашедший не просит денег заранее. Попросите назвать скрытый признак и встретьтесь лично.",
+  "scam2t": "«Это моя вещь», но признаки назвать не может",
+  "scam2d": "Настоящий владелец назовёт то, чего нет в объявлении. Не отдавайте вещь без проверки.",
+  "scam3t": "«Назовите код из СМС»",
+  "scam3d": "Так крадут деньги и аккаунты. Для возврата вещи не нужны ни коды, ни PIN, ни данные карты.",
+  "scam4t": "«Я сотрудник Табылды»",
+  "scam4d": "Табылды не звонит и не просит денег или данных. Не верьте таким звонкам.",
+  "scam5t": "«Верну только за деньги»",
+  "scam5d": "Не соглашайтесь и пожалуйтесь на объявление. Если угрожают — звоните 102.",
+  "scamHelp": "Если вас обманули: пожалуйтесь на объявление или собеседника, сохраните переписку и обратитесь в милицию (102).",
+  "english": "English",
+  "commentsTitle": "Комментарии",
+  "commentsCount": "Комментарии · {n}",
+  "@commentsCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "commentsEmpty": "Комментариев пока нет. Видели эту вещь или знаете, где она? Напишите.",
+  "commentHint": "Написать комментарий…",
+  "commentRules": "Комментарии видят все. Не пишите телефоны, адреса и скрытые признаки вещи — для связи есть заявка.",
+  "commentByOwner": "Автор объявления",
+  "commentDelete": "Удалить комментарий",
+  "commentDeleted": "Комментарий удалён",
+  "commentsClosed": "Объявление закрыто — новые комментарии оставить нельзя.",
+  "notifComments": "Комментарии к моим объявлениям",
+  "contactUs": "Связаться с нами",
+  "contactUsSubtitle": "Идеи, проблемы и отзывы о приложении",
+  "feedbackIntro": "Расскажите, что улучшить, что не работает или что понравилось. Команда читает каждое сообщение.",
+  "feedbackKind": "Тема",
+  "feedbackIdea": "Идея",
+  "feedbackProblem": "Проблема",
+  "feedbackPraise": "Благодарность",
+  "feedbackQuestion": "Вопрос",
+  "feedbackOther": "Другое",
+  "feedbackRating": "Оценка приложения",
+  "feedbackMessage": "Сообщение",
+  "feedbackMessageHint": "Например: добавьте фильтр по дате",
+  "feedbackMessageRequired": "Напишите хотя бы несколько слов",
+  "feedbackContact": "Как с вами связаться (необязательно)",
+  "feedbackContactHint": "Телефон, email или Telegram",
+  "feedbackSent": "Спасибо! Сообщение отправлено команде.",
+  "helpQ5": "Есть ли в приложении чат?",
+  "helpA5": "Да. Личный чат открывается между нашедшим и владельцем, когда автор объявления подтвердит заявку, — так мошенники не могут писать всем подряд. А под каждым объявлением можно оставлять открытые комментарии."
+}
